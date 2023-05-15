@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Bigelow+Rules&family=Charm:wght@700&family=Croissant+One&family=DM+Serif+Display&family=Darumadrop+One&family=Lobster&family=Noto+Sans+JP:wght@500&family=Oleo+Script+Swash+Caps&family=Rosarivo&family=Sumana:wght@700&family=Vidaloka&display=swap');
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bevan&family=Croissant+One&family=DM+Serif+Display&family=Oleo+Script+Swash+Caps&family=Rosarivo&family=Sumana:wght@700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Bevan&family=Darumadrop+One&family=Josefin+Sans:wght@300&family=Markazi+Text&family=Noto+Sans+JP:wght@300;600&family=Oleo+Script&family=Playball&family=Roboto&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+  font-family: 'Rosarivo', serif;
+}
+h2 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+h3 {
+  font-family: 'Darumadrop One', cursive;
+}
+h4 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.home {
+  font-size: 11rem;
+}
+.photo {
+  border-radius : 50%;
+  margin-left: 50px;
+  display: block;
+  position: fixed; 
+  top: 280px;
+  right:100px;
+}
+.img_hy {
+  animation: hy 5s;
+}
+@keyframes hy{
+  0% {
+   transform: translateX(500px);
+   opacity: 0; 
+   transition: 3s;
+  }
+  25% {
+    transform: translate(100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(0px);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+ }
+}
+
+.pict_name {
+  font-family: 'Charm', cursive;
+  font-weight: bold;
+  font-size: 12rem;
+}
+.aboutMain {
+  font-family: 'Sumana', serif;
+  font-weight: 800;
+}
+.bird{
+  margin-top: 300px;
+  margin-left: 50px;
+}
+.work {
+  font-weight: bold;
+  margin-top: 100px;
+
+}
+.workIcon {
+  font-weight: bold;
+  margin-top: 100px;
+
+}
+.hover {
+  height: 150px;
+}
+.index {
+  color: #AB8E66;
+}
+.index_image {
+  height: 400px;
+  object-fit: cover;
+}
+i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+/* @media (max-width: 600px) {
+  .footer {
+    display:flex;
+    flex-direction: column;
+  }
+  
+  
+} */
